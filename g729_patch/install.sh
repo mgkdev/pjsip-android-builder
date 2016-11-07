@@ -1,11 +1,10 @@
 #!/bin/bash -e
-PJPROJECT_BASE_FOLDER="../pjproject-2.4.5"
 
 cp g729.patch ../
 CURDIR=$(pwd)
-cd ..
-patch -p0 < g729.patch
-rm -rf g729.patch
+cd "$PJPROJECT_BASE_FOLDER"
+patch -p1 < ../g729.patch
+rm -rf ../g729.patch
 cd "$CURDIR"
 
 cp g729.c "$PJPROJECT_BASE_FOLDER/pjmedia/src/pjmedia-codec/g729.c"

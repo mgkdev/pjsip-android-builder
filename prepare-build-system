@@ -74,14 +74,18 @@ then
     echo "Extracting PJSIP ..."
     tar xjf pjsip.tar.bz2 && rm -rf pjsip.tar.bz2
 
-    if [ "${PJSIP_DIR_NAME}" == "pjproject-2.4.5" ]
+    if [ "${PJSIP_DIR_NAME}" == "pjproject-2.5.5" ]
     then
-        echo "Fix BASH script error in 2.4.5 tag ..."
-        sed -i 's/TARGET_HOST+=-linux-android/TARGET_HOST="\${TARGET_HOST}-linux-android"/g' "${BASEDIR}/${PJSIP_DIR_NAME}/configure-android"
+        echo "Disable some features of libyuv (provisional treatment for x86 build)..."
+        cd "${PJSIP_DIR_NAME}"
+        sed -i 's*\(#define HAS_I411TOARGBROW_SSSE3\)*//\1*g' third_party/yuv/include/libyuv/row.h
+        sed -i 's*\(#define HAS_I422ALPHATOARGBROW_SSSE3\)*//\1*g' third_party/yuv/include/libyuv/row.h
+        sed -i 's*\(#define HAS_I422ALPHATOARGBROW_AVX2\)*//\1*g' third_party/yuv/include/libyuv/row.h
+        cd ..
 
         echo "Apply patch to support G.729 codec without Intel IPP codec library ..."
         cd g729_patch
-        ./install.sh
+        PJPROJECT_BASE_FOLDER="../pjproject-2.5.5" ./install.sh
         cd ..
     fi
 fi
@@ -113,29 +117,6 @@ then
     tar xzf openssl.tar.gz && rm -rf openssl.tar.gz
     cd ${BASEDIR}
     ./openssl-build-target-archs
-fi
-
-if [ "$DOWNLOAD_LIBYUV" == "1" ]
-then
-    echo "Downloading libyuv ..."
-    cd "${BASEDIR}"
-    rm -rf "${LIBYUV_REPO_DIR_NAME}"
-    git clone "${LIBYUV_REPO_PATH}"
-    cd "${LIBYUV_REPO_DIR_NAME}"
-    export PATH="${BASEDIR}/${NDK_DIR_NAME}:$PATH"
-
-    # Re-enable static library, disabled with https://github.com/illuspas/libyuv-android/commit/d5d7e66ed635cf96fce1aa029ccc24a06bb0e7bc
-    sed -i 's/#include $(BUILD_SHARED_LIBRARY)/include $(BUILD_SHARED_LIBRARY)/g' jni/Android.mk
-    sed -i 's/include $(BUILD_STATIC_LIBRARY)/#include $(BUILD_STATIC_LIBRARY)/g' jni/Android.mk   
-
-    if [ "${OPENH264_TARGET_NDK_LEVEL}" -ge "21" ]
-    then
-        sed -i 's/APP_ABI := armeabi-v7a arm64-v8a x86 x86_64/APP_ABI := armeabi armeabi-v7a arm64-v8a x86 x86_64 mips mips64/g' jni/Application.mk
-    else
-        sed -i 's/APP_ABI := armeabi-v7a arm64-v8a x86 x86_64/APP_ABI := armeabi armeabi-v7a x86/g' jni/Application.mk
-    fi
-
-    ndk-build
 fi
 
 if [ "$DOWNLOAD_OPENH264" == "1" ]

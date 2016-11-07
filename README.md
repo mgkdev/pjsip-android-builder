@@ -1,29 +1,26 @@
 # PJSIP Android Builder
-Easily build PJSIP with: OpenSSL, OpenH264, libyuv and G.729 (without Intel IPP) for Android, by using a Linux virtual machine.
+Easily build PJSIP with: OpenSSL, OpenH264 and G.729 (without Intel IPP) for Android, by using a Linux virtual machine.
 
 ## Build matrix
 <b>Using Android API 18 (it's the default when you checkout the project and in the vagrant base box):</b>
 
 | Library \ Builds for | armeabi | armeabi-v7a | x86 | mips | arm64-v8a  | x86_64 | mips64 |
 |----------------------|---------|-------------|-----|------|------------|--------|--------|
-| [PJSIP 2.4.5](https://trac.pjsip.org/repos/browser/pjproject/tags/2.4.5)          |    X    |      X      |  X  |   X  |          |      |      |
-| [LibYUV r1580](https://github.com/illuspas/libyuv-android)         |    X    |      X      |  X  |     |           |      |      |
-| [G.729](https://github.com/gotev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |           |       |       |
-| [OpenSSL 1.0.2g](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |           |       |        |
+| [PJSIP 2.5.5](https://trac.pjsip.org/repos/browser/pjproject/tags/2.5.5)          |    X    |      X      |  X  |   X  |          |      |      |
+| [G.729](https://github.com/mgkdev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |           |       |       |
+| [OpenSSL 1.0.2j](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |           |       |        |
 | [OpenH264 1.0.0](https://github.com/cisco/openh264/releases/tag/v1.0.0)       |    X    |      X      |  X  |   X  |            |        |        |
-If you want to compile LibYUV for mips, check why it has been disabled in [#12](https://github.com/gotev/pjsip-android-builder/issues/12).
 
 <b>Using Android API 21+:</b>
 
 | Library \ Builds for | armeabi | armeabi-v7a | x86 | mips | arm64-v8a  | x86_64 | mips64 |
 |----------------------|---------|-------------|-----|------|------------|--------|--------|
-| [PJSIP 2.4.5](https://trac.pjsip.org/repos/browser/pjproject/tags/2.4.5)          |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
-| [LibYUV r1580](https://github.com/illuspas/libyuv-android)         |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
-| [G.729](https://github.com/gotev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
-| [OpenSSL 1.0.2g](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |      X     |    X   |        |
-| [OpenH264 1.0.0](https://github.com/cisco/openh264/releases/tag/v1.0.0)       |    X    |      X      |  X  |   X  |            |        |        |
+| [PJSIP 2.5.5](https://trac.pjsip.org/repos/browser/pjproject/tags/2.5.5)          |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [G.729](https://github.com/mgkdev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [OpenSSL 1.0.2j](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [OpenH264 1.0.0](https://github.com/cisco/openh264/releases/tag/v1.0.0)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
 
-OpenSSL and OpenH264 have problems with 64 bit archs, as you can see from the build compatibility matrix. Check [#2](https://github.com/gotev/pjsip-android-builder/issues/2) and [#8](https://github.com/gotev/pjsip-android-builder/issues/8) for further reference. 64 bit builds are supported starting from Android API 21+, so if you compile using older Android APIs, you can do that only for: `armeabi`, `armeabi-v7a`, `x86` and `mips`. 
+OpenSSL and OpenH264 have problems with 64 bit archs, as you can see from the build compatibility matrix. Check [#2](https://github.com/VoiSmart/pjsip-android-builder/issues/2) and [#8](https://github.com/VoiSmart/pjsip-android-builder/issues/8) for further reference. 64 bit builds are supported starting from Android API 21+, so if you compile using older Android APIs, you can do that only for: `armeabi`, `armeabi-v7a`, `x86` and `mips`. 
 
 ## Purpose
 I needed an easily replicable build system to build PJSIP http://www.pjsip.org/ native library with NDK for Android. So, I created a Linux virtual machine and wrote some scripts to download, install all the requirements needed to make it a complete build environment and some automated build scripts.
@@ -32,19 +29,9 @@ If you want to contribute, your help is really appreciated :)
 ## Setup
 You have three options available. The first two require that you have [vagrant](https://www.vagrantup.com/) installed on your system. The first option is the easiest and also the fastest, but may be not the most updated. The second one lets you create the base box exactly as I create it, and the third one is the slowest, as you have to install everything from the base OS and download tons of stuff. You choose.
 
-### With ready to use vagrant base box
-You can find it [here](https://atlas.hashicorp.com/gotev/boxes/pjsip-android-builder/).
-```
-vagrant init gotev/pjsip-android-builder; vagrant up --provider virtualbox
-```
-then you can SSH into the VM and build PJSIP:
-```
-./build
-```
-
 ### Build the vagrant box from scratch
 ```
-git clone https://github.com/gotev/pjsip-android-builder
+git clone https://github.com/mgkdev/pjsip-android-builder
 cd pjsip-android-builder; vagrant up
 ```
 This will setup a full Ubuntu Server 14.04.3 LTS from scratch with everything that's needed to compile PJSIP. This will take some time, as there are many things which has to be downloaded and installed, so relax or do some other thing while waiting. Be aware that you may encounter errors in the process, due to newer versions of the libraries being released and the versions used in `config.conf` not being available anymore. If that happens, check which are the new versions, update `config.conf` and retry from scratch. There may be also other errors due to compilation issues when newer compiler versions and tools are released...and that's a whole new story! After plenty of output, if everything is ok you will see:
@@ -84,25 +71,20 @@ Compile PJSIP for arch armeabi ...
 Compile PJSUA for arch armeabi ...
 Copying PJSUA .so library to final build directory ...
 Copying OpenH264 .so library to final build directory ...
-Copying libyuv .so library to final build directory ...
 Compile PJSIP for arch armeabi-v7a ...
 Compile PJSUA for arch armeabi-v7a ...
 Copying PJSUA .so library to final build directory ...
 Copying OpenH264 .so library to final build directory ...
-Copying libyuv .so library to final build directory ...
 Compile PJSIP for arch x86 ...
 Compile PJSUA for arch x86 ...
 Copying PJSUA .so library to final build directory ...
 Copying OpenH264 .so library to final build directory ...
-Copying libyuv .so library to final build directory ...
 Compile PJSIP for arch x86_64 ...
 Compile PJSUA for arch x86_64 ...
 Copying PJSUA .so library to final build directory ...
-Copying libyuv .so library to final build directory ...
 Compile PJSIP for arch arm64-v8a ...
 Compile PJSUA for arch arm64-v8a ...
 Copying PJSUA .so library to final build directory ...
-Copying libyuv .so library to final build directory ...
 Copying PJSUA2 java bindings to final build directory ...
 Finished! Check the generated output in /home/user/pjsip-android-builder/pjsip-build
 ```
@@ -117,7 +99,7 @@ pjsip-build
 If something goes wrong during the compilation of a particular target architecture, the main script will be terminated and you can see the full log in `./pjsip-build/logs/<arch>.log`. So for example if there's an error for <b>x86</b>, you can see the full log in `./pjsip-build/logs/x86.log`
 
 ## Build with G.729 codec
-Please read [G.729 codec disclaimer](https://github.com/gotev/pjsip-android-builder/blob/master/g729_patch/README.md)!
+Please read [G.729 codec disclaimer](https://github.com/mgkdev/pjsip-android-builder/blob/master/g729_patch/README.md)!
 
 Use `./build-with-g729` script insted of `./build`.
 
@@ -190,7 +172,6 @@ DOWNLOAD_PJSIP=0
 DOWNLOAD_SWIG=0
 DOWNLOAD_OPENSSL=1
 DOWNLOAD_OPENH264=0
-DOWNLOAD_LIBYUV=0
   ```
 3. remove `openssl-build-output` and the old `openssl-1.0.2g` (or whatever version instead of 1.0.2g) directories
 4. Execute `./prepare-build-system` and the new OpenSSL will be downloaded and compiled (go get a coffee :D)

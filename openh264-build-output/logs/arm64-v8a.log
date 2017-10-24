@@ -1,0 +1,354 @@
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/cpu-features.o /pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures/cpu-features.c
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/copy_mb.o codec/common/src/copy_mb.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/cpu.o codec/common/src/cpu.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/crt_util_safe_x.o codec/common/src/crt_util_safe_x.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/deblocking_common.o codec/common/src/deblocking_common.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/logging.o codec/common/src/logging.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/sad_common.o codec/common/src/sad_common.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/src/WelsThreadLib.o codec/common/src/WelsThreadLib.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -Icodec/common/arm64/ -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/arm64/expand_picture_aarch64_neon.o codec/common/arm64/expand_picture_aarch64_neon.S
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -Icodec/common/arm64/ -Icodec/api/svc -Icodec/common/inc -Dandroid_getCpuIdArm=wels_getCpuIdArm -Dandroid_setCpuArm=wels_setCpuArm -Dandroid_getCpuCount=wels_getCpuCount -Dandroid_getCpuFamily=wels_getCpuFamily -Dandroid_getCpuFeatures=wels_getCpuFeatures -Dandroid_setCpu=wels_setCpu  -I/pjsip-android-builder/android-ndk-r10e/sources/android/cpufeatures -c -o codec/common/arm64/mc_aarch64_neon.o codec/common/arm64/mc_aarch64_neon.S
+rm -f libcommon.a
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar cr libcommon.a codec/common/cpu-features.o codec/common/src/copy_mb.o codec/common/src/cpu.o codec/common/src/crt_util_safe_x.o codec/common/src/deblocking_common.o codec/common/src/logging.o codec/common/src/sad_common.o codec/common/src/WelsThreadLib.o codec/common/arm64/expand_picture_aarch64_neon.o codec/common/arm64/mc_aarch64_neon.o
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/au_parser.o codec/decoder/core/src/au_parser.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/bit_stream.o codec/decoder/core/src/bit_stream.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/deblocking.o codec/decoder/core/src/deblocking.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/decode_mb_aux.o codec/decoder/core/src/decode_mb_aux.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/decode_slice.o codec/decoder/core/src/decode_slice.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/decoder.o codec/decoder/core/src/decoder.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/decoder_core.o codec/decoder/core/src/decoder_core.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/decoder_data_tables.o codec/decoder/core/src/decoder_data_tables.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/error_concealment.o codec/decoder/core/src/error_concealment.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/expand_pic.o codec/decoder/core/src/expand_pic.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/fmo.o codec/decoder/core/src/fmo.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/get_intra_predictor.o codec/decoder/core/src/get_intra_predictor.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/manage_dec_ref.o codec/decoder/core/src/manage_dec_ref.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/mc.o codec/decoder/core/src/mc.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/mem_align.o codec/decoder/core/src/mem_align.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/memmgr_nal_unit.o codec/decoder/core/src/memmgr_nal_unit.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/mv_pred.o codec/decoder/core/src/mv_pred.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/parse_mb_syn_cavlc.o codec/decoder/core/src/parse_mb_syn_cavlc.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/pic_queue.o codec/decoder/core/src/pic_queue.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/rec_mb.o codec/decoder/core/src/rec_mb.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/core/src/utils.o codec/decoder/core/src/utils.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/plus/src/welsCodecTrace.o codec/decoder/plus/src/welsCodecTrace.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/decoder/core/inc -Icodec/decoder/plus/inc -c -o codec/decoder/plus/src/welsDecoderExt.o codec/decoder/plus/src/welsDecoderExt.cpp
+rm -f libdecoder.a
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar cr libdecoder.a codec/decoder/core/src/au_parser.o codec/decoder/core/src/bit_stream.o codec/decoder/core/src/deblocking.o codec/decoder/core/src/decode_mb_aux.o codec/decoder/core/src/decode_slice.o codec/decoder/core/src/decoder.o codec/decoder/core/src/decoder_core.o codec/decoder/core/src/decoder_data_tables.o codec/decoder/core/src/error_concealment.o codec/decoder/core/src/expand_pic.o codec/decoder/core/src/fmo.o codec/decoder/core/src/get_intra_predictor.o codec/decoder/core/src/manage_dec_ref.o codec/decoder/core/src/mc.o codec/decoder/core/src/mem_align.o codec/decoder/core/src/memmgr_nal_unit.o codec/decoder/core/src/mv_pred.o codec/decoder/core/src/parse_mb_syn_cavlc.o codec/decoder/core/src/pic_queue.o codec/decoder/core/src/rec_mb.o codec/decoder/core/src/utils.o codec/decoder/plus/src/welsCodecTrace.o codec/decoder/plus/src/welsDecoderExt.o
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/au_set.o codec/encoder/core/src/au_set.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/deblocking.o codec/encoder/core/src/deblocking.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/decode_mb_aux.o codec/encoder/core/src/decode_mb_aux.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/encode_mb_aux.o codec/encoder/core/src/encode_mb_aux.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/encoder.o codec/encoder/core/src/encoder.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/encoder_data_tables.o codec/encoder/core/src/encoder_data_tables.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/encoder_ext.o codec/encoder/core/src/encoder_ext.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/expand_pic.o codec/encoder/core/src/expand_pic.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/get_intra_predictor.o codec/encoder/core/src/get_intra_predictor.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/mc.o codec/encoder/core/src/mc.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/md.o codec/encoder/core/src/md.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/memory_align.o codec/encoder/core/src/memory_align.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/mv_pred.o codec/encoder/core/src/mv_pred.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/nal_encap.o codec/encoder/core/src/nal_encap.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/picture_handle.o codec/encoder/core/src/picture_handle.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/property.o codec/encoder/core/src/property.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/ratectl.o codec/encoder/core/src/ratectl.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/ref_list_mgr_svc.o codec/encoder/core/src/ref_list_mgr_svc.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/sample.o codec/encoder/core/src/sample.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/set_mb_syn_cavlc.o codec/encoder/core/src/set_mb_syn_cavlc.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/slice_multi_threading.o codec/encoder/core/src/slice_multi_threading.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_base_layer_md.o codec/encoder/core/src/svc_base_layer_md.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_enc_slice_segment.o codec/encoder/core/src/svc_enc_slice_segment.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_encode_mb.o codec/encoder/core/src/svc_encode_mb.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_encode_slice.o codec/encoder/core/src/svc_encode_slice.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_mode_decision.o codec/encoder/core/src/svc_mode_decision.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_motion_estimate.o codec/encoder/core/src/svc_motion_estimate.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/svc_set_mb_syn_cavlc.o codec/encoder/core/src/svc_set_mb_syn_cavlc.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/utils.o codec/encoder/core/src/utils.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/core/src/wels_preprocess.o codec/encoder/core/src/wels_preprocess.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/plus/src/welsCodecTrace.o codec/encoder/plus/src/welsCodecTrace.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/encoder/core/inc -Icodec/encoder/plus/inc -Icodec/processing/interface -c -o codec/encoder/plus/src/welsEncoderExt.o codec/encoder/plus/src/welsEncoderExt.cpp
+rm -f libencoder.a
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar cr libencoder.a codec/encoder/core/src/au_set.o codec/encoder/core/src/deblocking.o codec/encoder/core/src/decode_mb_aux.o codec/encoder/core/src/encode_mb_aux.o codec/encoder/core/src/encoder.o codec/encoder/core/src/encoder_data_tables.o codec/encoder/core/src/encoder_ext.o codec/encoder/core/src/expand_pic.o codec/encoder/core/src/get_intra_predictor.o codec/encoder/core/src/mc.o codec/encoder/core/src/md.o codec/encoder/core/src/memory_align.o codec/encoder/core/src/mv_pred.o codec/encoder/core/src/nal_encap.o codec/encoder/core/src/picture_handle.o codec/encoder/core/src/property.o codec/encoder/core/src/ratectl.o codec/encoder/core/src/ref_list_mgr_svc.o codec/encoder/core/src/sample.o codec/encoder/core/src/set_mb_syn_cavlc.o codec/encoder/core/src/slice_multi_threading.o codec/encoder/core/src/svc_base_layer_md.o codec/encoder/core/src/svc_enc_slice_segment.o codec/encoder/core/src/svc_encode_mb.o codec/encoder/core/src/svc_encode_slice.o codec/encoder/core/src/svc_mode_decision.o codec/encoder/core/src/svc_motion_estimate.o codec/encoder/core/src/svc_set_mb_syn_cavlc.o codec/encoder/core/src/utils.o codec/encoder/core/src/wels_preprocess.o codec/encoder/plus/src/welsCodecTrace.o codec/encoder/plus/src/welsEncoderExt.o
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/adaptivequantization/AdaptiveQuantization.o codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/backgrounddetection/BackgroundDetection.o codec/processing/src/backgrounddetection/BackgroundDetection.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/common/common.o codec/processing/src/common/common.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/common/memory.o codec/processing/src/common/memory.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/common/WelsFrameWork.o codec/processing/src/common/WelsFrameWork.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/common/WelsFrameWorkEx.o codec/processing/src/common/WelsFrameWorkEx.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/complexityanalysis/ComplexityAnalysis.o codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/denoise/denoise.o codec/processing/src/denoise/denoise.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/denoise/denoise_filter.o codec/processing/src/denoise/denoise_filter.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/downsample/downsample.o codec/processing/src/downsample/downsample.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/downsample/downsamplefuncs.o codec/processing/src/downsample/downsamplefuncs.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/imagerotate/imagerotate.o codec/processing/src/imagerotate/imagerotate.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/imagerotate/imagerotatefuncs.o codec/processing/src/imagerotate/imagerotatefuncs.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/scenechangedetection/SceneChangeDetection.o codec/processing/src/scenechangedetection/SceneChangeDetection.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/scrolldetection/ScrollDetection.o codec/processing/src/scrolldetection/ScrollDetection.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/scrolldetection/ScrollDetectionFuncs.o codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/vaacalc/vaacalcfuncs.o codec/processing/src/vaacalc/vaacalcfuncs.cpp
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -O3 -DHAVE_NEON_AARCH64 -DLINUX -DANDROID_NDK -fpic --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -fno-rtti -fno-exceptions -Icodec/api/svc -Icodec/common/inc  -Icodec/processing/interface -Icodec/processing/src/common -Icodec/processing/src/scrolldetection -c -o codec/processing/src/vaacalc/vaacalculation.o codec/processing/src/vaacalc/vaacalculation.cpp
+rm -f libprocessing.a
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar cr libprocessing.a codec/processing/src/adaptivequantization/AdaptiveQuantization.o codec/processing/src/backgrounddetection/BackgroundDetection.o codec/processing/src/common/common.o codec/processing/src/common/memory.o codec/processing/src/common/WelsFrameWork.o codec/processing/src/common/WelsFrameWorkEx.o codec/processing/src/complexityanalysis/ComplexityAnalysis.o codec/processing/src/denoise/denoise.o codec/processing/src/denoise/denoise_filter.o codec/processing/src/downsample/downsample.o codec/processing/src/downsample/downsamplefuncs.o codec/processing/src/imagerotate/imagerotate.o codec/processing/src/imagerotate/imagerotatefuncs.o codec/processing/src/scenechangedetection/SceneChangeDetection.o codec/processing/src/scrolldetection/ScrollDetection.o codec/processing/src/scrolldetection/ScrollDetectionFuncs.o codec/processing/src/vaacalc/vaacalcfuncs.o codec/processing/src/vaacalc/vaacalculation.o
+rm -f libopenh264.a
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-ar cr libopenh264.a codec/encoder/core/src/au_set.o codec/encoder/core/src/deblocking.o codec/encoder/core/src/decode_mb_aux.o codec/encoder/core/src/encode_mb_aux.o codec/encoder/core/src/encoder.o codec/encoder/core/src/encoder_data_tables.o codec/encoder/core/src/encoder_ext.o codec/encoder/core/src/expand_pic.o codec/encoder/core/src/get_intra_predictor.o codec/encoder/core/src/mc.o codec/encoder/core/src/md.o codec/encoder/core/src/memory_align.o codec/encoder/core/src/mv_pred.o codec/encoder/core/src/nal_encap.o codec/encoder/core/src/picture_handle.o codec/encoder/core/src/property.o codec/encoder/core/src/ratectl.o codec/encoder/core/src/ref_list_mgr_svc.o codec/encoder/core/src/sample.o codec/encoder/core/src/set_mb_syn_cavlc.o codec/encoder/core/src/slice_multi_threading.o codec/encoder/core/src/svc_base_layer_md.o codec/encoder/core/src/svc_enc_slice_segment.o codec/encoder/core/src/svc_encode_mb.o codec/encoder/core/src/svc_encode_slice.o codec/encoder/core/src/svc_mode_decision.o codec/encoder/core/src/svc_motion_estimate.o codec/encoder/core/src/svc_set_mb_syn_cavlc.o codec/encoder/core/src/utils.o codec/encoder/core/src/wels_preprocess.o codec/encoder/plus/src/welsCodecTrace.o codec/encoder/plus/src/welsEncoderExt.o codec/decoder/core/src/au_parser.o codec/decoder/core/src/bit_stream.o codec/decoder/core/src/deblocking.o codec/decoder/core/src/decode_mb_aux.o codec/decoder/core/src/decode_slice.o codec/decoder/core/src/decoder.o codec/decoder/core/src/decoder_core.o codec/decoder/core/src/decoder_data_tables.o codec/decoder/core/src/error_concealment.o codec/decoder/core/src/expand_pic.o codec/decoder/core/src/fmo.o codec/decoder/core/src/get_intra_predictor.o codec/decoder/core/src/manage_dec_ref.o codec/decoder/core/src/mc.o codec/decoder/core/src/mem_align.o codec/decoder/core/src/memmgr_nal_unit.o codec/decoder/core/src/mv_pred.o codec/decoder/core/src/parse_mb_syn_cavlc.o codec/decoder/core/src/pic_queue.o codec/decoder/core/src/rec_mb.o codec/decoder/core/src/utils.o codec/decoder/plus/src/welsCodecTrace.o codec/decoder/plus/src/welsDecoderExt.o codec/processing/src/adaptivequantization/AdaptiveQuantization.o codec/processing/src/backgrounddetection/BackgroundDetection.o codec/processing/src/common/common.o codec/processing/src/common/memory.o codec/processing/src/common/WelsFrameWork.o codec/processing/src/common/WelsFrameWorkEx.o codec/processing/src/complexityanalysis/ComplexityAnalysis.o codec/processing/src/denoise/denoise.o codec/processing/src/denoise/denoise_filter.o codec/processing/src/downsample/downsample.o codec/processing/src/downsample/downsamplefuncs.o codec/processing/src/imagerotate/imagerotate.o codec/processing/src/imagerotate/imagerotatefuncs.o codec/processing/src/scenechangedetection/SceneChangeDetection.o codec/processing/src/scrolldetection/ScrollDetection.o codec/processing/src/scrolldetection/ScrollDetectionFuncs.o codec/processing/src/vaacalc/vaacalcfuncs.o codec/processing/src/vaacalc/vaacalculation.o codec/common/cpu-features.o codec/common/src/copy_mb.o codec/common/src/cpu.o codec/common/src/crt_util_safe_x.o codec/common/src/deblocking_common.o codec/common/src/logging.o codec/common/src/sad_common.o codec/common/src/WelsThreadLib.o codec/common/arm64/expand_picture_aarch64_neon.o codec/common/arm64/mc_aarch64_neon.o
+rm -f libopenh264.so
+/pjsip-android-builder/android-ndk-r10e/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-g++ -shared --sysroot=/pjsip-android-builder/android-ndk-r10e/platforms/android-21/arch-arm64  -o libopenh264.so codec/encoder/core/src/au_set.o codec/encoder/core/src/deblocking.o codec/encoder/core/src/decode_mb_aux.o codec/encoder/core/src/encode_mb_aux.o codec/encoder/core/src/encoder.o codec/encoder/core/src/encoder_data_tables.o codec/encoder/core/src/encoder_ext.o codec/encoder/core/src/expand_pic.o codec/encoder/core/src/get_intra_predictor.o codec/encoder/core/src/mc.o codec/encoder/core/src/md.o codec/encoder/core/src/memory_align.o codec/encoder/core/src/mv_pred.o codec/encoder/core/src/nal_encap.o codec/encoder/core/src/picture_handle.o codec/encoder/core/src/property.o codec/encoder/core/src/ratectl.o codec/encoder/core/src/ref_list_mgr_svc.o codec/encoder/core/src/sample.o codec/encoder/core/src/set_mb_syn_cavlc.o codec/encoder/core/src/slice_multi_threading.o codec/encoder/core/src/svc_base_layer_md.o codec/encoder/core/src/svc_enc_slice_segment.o codec/encoder/core/src/svc_encode_mb.o codec/encoder/core/src/svc_encode_slice.o codec/encoder/core/src/svc_mode_decision.o codec/encoder/core/src/svc_motion_estimate.o codec/encoder/core/src/svc_set_mb_syn_cavlc.o codec/encoder/core/src/utils.o codec/encoder/core/src/wels_preprocess.o codec/encoder/plus/src/welsCodecTrace.o codec/encoder/plus/src/welsEncoderExt.o codec/decoder/core/src/au_parser.o codec/decoder/core/src/bit_stream.o codec/decoder/core/src/deblocking.o codec/decoder/core/src/decode_mb_aux.o codec/decoder/core/src/decode_slice.o codec/decoder/core/src/decoder.o codec/decoder/core/src/decoder_core.o codec/decoder/core/src/decoder_data_tables.o codec/decoder/core/src/error_concealment.o codec/decoder/core/src/expand_pic.o codec/decoder/core/src/fmo.o codec/decoder/core/src/get_intra_predictor.o codec/decoder/core/src/manage_dec_ref.o codec/decoder/core/src/mc.o codec/decoder/core/src/mem_align.o codec/decoder/core/src/memmgr_nal_unit.o codec/decoder/core/src/mv_pred.o codec/decoder/core/src/parse_mb_syn_cavlc.o codec/decoder/core/src/pic_queue.o codec/decoder/core/src/rec_mb.o codec/decoder/core/src/utils.o codec/decoder/plus/src/welsCodecTrace.o codec/decoder/plus/src/welsDecoderExt.o codec/processing/src/adaptivequantization/AdaptiveQuantization.o codec/processing/src/backgrounddetection/BackgroundDetection.o codec/processing/src/common/common.o codec/processing/src/common/memory.o codec/processing/src/common/WelsFrameWork.o codec/processing/src/common/WelsFrameWorkEx.o codec/processing/src/complexityanalysis/ComplexityAnalysis.o codec/processing/src/denoise/denoise.o codec/processing/src/denoise/denoise_filter.o codec/processing/src/downsample/downsample.o codec/processing/src/downsample/downsamplefuncs.o codec/processing/src/imagerotate/imagerotate.o codec/processing/src/imagerotate/imagerotatefuncs.o codec/processing/src/scenechangedetection/SceneChangeDetection.o codec/processing/src/scrolldetection/ScrollDetection.o codec/processing/src/scrolldetection/ScrollDetectionFuncs.o codec/processing/src/vaacalc/vaacalcfuncs.o codec/processing/src/vaacalc/vaacalculation.o codec/common/cpu-features.o codec/common/src/copy_mb.o codec/common/src/cpu.o codec/common/src/crt_util_safe_x.o codec/common/src/deblocking_common.o codec/common/src/logging.o codec/common/src/sad_common.o codec/common/src/WelsThreadLib.o codec/common/arm64/expand_picture_aarch64_neon.o codec/common/arm64/mc_aarch64_neon.o -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-soname,libopenh264.so
+cd ./codec/build/android/dec && /pjsip-android-builder/android-ndk-r10e/ndk-build -B APP_ABI=arm64-v8a && android update project -t android-21 -p . && ant debug
+make[1]: Entering directory `/tmp/openh264/codec/build/android/dec'
+[arm64-v8a] Prebuilt       : libopenh264.so <= jni/../../../../../
+[arm64-v8a] Install        : libopenh264.so => libs/arm64-v8a/libopenh264.so
+[arm64-v8a] Compile++      : welsdecdemo <= h264dec.cpp
+[arm64-v8a] Compile++      : welsdecdemo <= read_config.cpp
+[arm64-v8a] Compile++      : welsdecdemo <= d3d9_utils.cpp
+[arm64-v8a] Compile++      : welsdecdemo <= logging.cpp
+[arm64-v8a] Compile++      : welsdecdemo <= myjni.cpp
+[arm64-v8a] Prebuilt       : libstlport_shared.so <= <NDK>/sources/cxx-stl/stlport/libs/arm64-v8a/
+[arm64-v8a] SharedLibrary  : libwelsdecdemo.so
+[arm64-v8a] Install        : libwelsdecdemo.so => libs/arm64-v8a/libwelsdecdemo.so
+[arm64-v8a] Install        : libstlport_shared.so => libs/arm64-v8a/libstlport_shared.so
+make[1]: Leaving directory `/tmp/openh264/codec/build/android/dec'
+Updated and renamed default.properties to project.properties
+Updated local.properties
+No project name specified, using Activity name 'WelsDecTest'.
+If you wish to change it, edit the first line of build.xml.
+Added file ./build.xml
+Added file ./proguard-project.txt
+Buildfile: /tmp/openh264/codec/build/android/dec/build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at /pjsip-android-builder/android-sdk-linux
+
+-setup:
+     [echo] Project Name: WelsDecTest
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.3
+     [echo] Resolving Build Target for WelsDecTest...
+[gettarget] Project Target:   Android 5.0.1
+[gettarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/bin
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/bin/res
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/bin/rsObj
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/bin/rsLibs
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/gen
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/bin/classes
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/dec/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for WelsDecTest...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to /tmp/openh264/codec/build/android/dec/bin/classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 3 warnings
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /tmp/openh264/codec/build/android/dec/bin/classes
+      [dex] Converting compiled files and external libraries into /tmp/openh264/codec/build/android/dec/bin/classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /tmp/openh264/codec/build/android/dec/res
+   [crunch] To destination dir: /tmp/openh264/codec/build/android/dec/bin/res
+   [crunch] Processing image to cache: /tmp/openh264/codec/build/android/dec/res/drawable-hdpi/icon.png => /tmp/openh264/codec/build/android/dec/bin/res/drawable-hdpi/icon.png
+   [crunch]   (processed image to cache entry /tmp/openh264/codec/build/android/dec/bin/res/drawable-hdpi/icon.png: 0% size of source)
+   [crunch] Processing image to cache: /tmp/openh264/codec/build/android/dec/res/drawable-ldpi/icon.png => /tmp/openh264/codec/build/android/dec/bin/res/drawable-ldpi/icon.png
+   [crunch]   (processed image to cache entry /tmp/openh264/codec/build/android/dec/bin/res/drawable-ldpi/icon.png: 0% size of source)
+   [crunch] Crunched 2 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating WelsDecTest-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /tmp/openh264/codec/build/android/dec/bin/WelsDecTest-debug.apk
+[propertyfile] Creating new property file: /tmp/openh264/codec/build/android/dec/bin/build.prop
+[propertyfile] Updating property file: /tmp/openh264/codec/build/android/dec/bin/build.prop
+[propertyfile] Updating property file: /tmp/openh264/codec/build/android/dec/bin/build.prop
+[propertyfile] Updating property file: /tmp/openh264/codec/build/android/dec/bin/build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+cd ./codec/build/android/enc && /pjsip-android-builder/android-ndk-r10e/ndk-build -B APP_ABI=arm64-v8a && android update project -t android-21 -p . && ant debug
+make[1]: Entering directory `/tmp/openh264/codec/build/android/enc'
+[arm64-v8a] Prebuilt       : libopenh264.so <= jni/../../../../../
+[arm64-v8a] Install        : libopenh264.so => libs/arm64-v8a/libopenh264.so
+[arm64-v8a] Compile++      : welsencdemo <= welsenc.cpp
+[arm64-v8a] Compile++      : welsencdemo <= read_config.cpp
+[arm64-v8a] Compile++      : welsencdemo <= logging.cpp
+[arm64-v8a] Compile++      : welsencdemo <= myjni.cpp
+[arm64-v8a] Prebuilt       : libstlport_shared.so <= <NDK>/sources/cxx-stl/stlport/libs/arm64-v8a/
+[arm64-v8a] SharedLibrary  : libwelsencdemo.so
+[arm64-v8a] Install        : libwelsencdemo.so => libs/arm64-v8a/libwelsencdemo.so
+[arm64-v8a] Install        : libstlport_shared.so => libs/arm64-v8a/libstlport_shared.so
+make[1]: Leaving directory `/tmp/openh264/codec/build/android/enc'
+Updated and renamed default.properties to project.properties
+Updated local.properties
+No project name specified, using Activity name 'WelsEncTest'.
+If you wish to change it, edit the first line of build.xml.
+Added file ./build.xml
+Added file ./proguard-project.txt
+Buildfile: /tmp/openh264/codec/build/android/enc/build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at /pjsip-android-builder/android-sdk-linux
+
+-setup:
+     [echo] Project Name: WelsEncTest
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.3
+     [echo] Resolving Build Target for WelsEncTest...
+[gettarget] Project Target:   Android 5.0.1
+[gettarget] API level:        21
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/bin
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/bin/res
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/bin/rsObj
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/bin/rsLibs
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/gen
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/bin/classes
+    [mkdir] Created dir: /tmp/openh264/codec/build/android/enc/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for WelsEncTest...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 3 source files to /tmp/openh264/codec/build/android/enc/bin/classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] 3 warnings
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /tmp/openh264/codec/build/android/enc/bin/classes
+      [dex] Converting compiled files and external libraries into /tmp/openh264/codec/build/android/enc/bin/classes.dex...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /tmp/openh264/codec/build/android/enc/res
+   [crunch] To destination dir: /tmp/openh264/codec/build/android/enc/bin/res
+   [crunch] Processing image to cache: /tmp/openh264/codec/build/android/enc/res/drawable-hdpi/icon.png => /tmp/openh264/codec/build/android/enc/bin/res/drawable-hdpi/icon.png
+   [crunch]   (processed image to cache entry /tmp/openh264/codec/build/android/enc/bin/res/drawable-hdpi/icon.png: 0% size of source)
+   [crunch] Processing image to cache: /tmp/openh264/codec/build/android/enc/res/drawable-ldpi/icon.png => /tmp/openh264/codec/build/android/enc/bin/res/drawable-ldpi/icon.png
+   [crunch]   (processed image to cache entry /tmp/openh264/codec/build/android/enc/bin/res/drawable-ldpi/icon.png: 0% size of source)
+   [crunch] Crunched 2 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating WelsEncTest-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /tmp/openh264/codec/build/android/enc/bin/WelsEncTest-debug.apk
+[propertyfile] Creating new property file: /tmp/openh264/codec/build/android/enc/bin/build.prop
+[propertyfile] Updating property file: /tmp/openh264/codec/build/android/enc/bin/build.prop
+[propertyfile] Updating property file: /tmp/openh264/codec/build/android/enc/bin/build.prop
+[propertyfile] Updating property file: /tmp/openh264/codec/build/android/enc/bin/build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+mkdir -p /pjsip-android-builder/openh264-build-output/libs/arm64-v8a/include/wels
+install -m 644 codec/api/svc/codec*.h /pjsip-android-builder/openh264-build-output/libs/arm64-v8a/include/wels
+mkdir -p /pjsip-android-builder/openh264-build-output/libs/arm64-v8a/lib
+install -m 644 libopenh264.a /pjsip-android-builder/openh264-build-output/libs/arm64-v8a/lib
+mkdir -p /pjsip-android-builder/openh264-build-output/libs/arm64-v8a/lib
+install -m 755 libopenh264.so /pjsip-android-builder/openh264-build-output/libs/arm64-v8a/lib

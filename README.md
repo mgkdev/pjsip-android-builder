@@ -6,19 +6,19 @@ Easily build PJSIP with: OpenSSL, OpenH264 and G.729 (without Intel IPP) for And
 
 | Library \ Builds for | armeabi | armeabi-v7a | x86 | mips | arm64-v8a  | x86_64 | mips64 |
 |----------------------|---------|-------------|-----|------|------------|--------|--------|
-| [PJSIP 2.5.5](https://trac.pjsip.org/repos/browser/pjproject/tags/2.5.5)          |    X    |      X      |  X  |   X  |          |      |      |
+| [PJSIP 2.6](https://trac.pjsip.org/repos/browser/pjproject/tags/2.6)          |    X    |      X      |  X  |   X  |          |      |      |
 | [G.729](https://github.com/mgkdev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |           |       |       |
-| [OpenSSL 1.0.2j](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |           |       |        |
-| [OpenH264 1.0.0](https://github.com/cisco/openh264/releases/tag/v1.0.0)       |    X    |      X      |  X  |   X  |            |        |        |
+| [OpenSSL 1.0.2l](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |           |       |        |
+| [OpenH264 1.6.0](https://github.com/cisco/openh264/releases/tag/v1.6.0)       |    X    |      X      |  X  |   X  |            |        |        |
 
 <b>Using Android API 21+:</b>
 
 | Library \ Builds for | armeabi | armeabi-v7a | x86 | mips | arm64-v8a  | x86_64 | mips64 |
 |----------------------|---------|-------------|-----|------|------------|--------|--------|
-| [PJSIP 2.5.5](https://trac.pjsip.org/repos/browser/pjproject/tags/2.5.5)          |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [PJSIP 2.6](https://trac.pjsip.org/repos/browser/pjproject/tags/2.6)          |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
 | [G.729](https://github.com/mgkdev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
-| [OpenSSL 1.0.2j](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
-| [OpenH264 1.0.0](https://github.com/cisco/openh264/releases/tag/v1.0.0)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [OpenSSL 1.0.2l](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [OpenH264 1.6.0](https://github.com/cisco/openh264/releases/tag/v1.6.0)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
 
 OpenSSL and OpenH264 have problems with 64 bit archs, as you can see from the build compatibility matrix. Check [#2](https://github.com/VoiSmart/pjsip-android-builder/issues/2) and [#8](https://github.com/VoiSmart/pjsip-android-builder/issues/8) for further reference. 64 bit builds are supported starting from Android API 21+, so if you compile using older Android APIs, you can do that only for: `armeabi`, `armeabi-v7a`, `x86` and `mips`. 
 
@@ -173,7 +173,7 @@ DOWNLOAD_SWIG=0
 DOWNLOAD_OPENSSL=1
 DOWNLOAD_OPENH264=0
   ```
-3. remove `openssl-build-output` and the old `openssl-1.0.2j` (or whatever version instead of 1.0.2j) directories
+3. remove `openssl-build-output` and the old `openssl-1.0.2l` (or whatever version instead of 1.0.2l) directories
 4. Execute `./prepare-build-system` and the new OpenSSL will be downloaded and compiled (go get a coffee :D)
 5. Rebuild PJSIP (by either using `./build` or `./build-with-g729`)
 

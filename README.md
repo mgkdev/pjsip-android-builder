@@ -6,7 +6,7 @@ Easily build PJSIP with: OpenSSL, OpenH264 and G.729 (without Intel IPP) for And
 
 | Library \ Builds for | armeabi | armeabi-v7a | x86 | mips | arm64-v8a  | x86_64 | mips64 |
 |----------------------|---------|-------------|-----|------|------------|--------|--------|
-| [PJSIP 2.7](https://trac.pjsip.org/repos/browser/pjproject/tags/2.7)          |    X    |      X      |  X  |   X  |          |      |      |
+| [PJSIP 2.7.1](https://trac.pjsip.org/repos/browser/pjproject/tags/2.7.1)          |    X    |      X      |  X  |   X  |          |      |      |
 | [G.729](https://github.com/mgkdev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |           |       |       |
 | [OpenSSL 1.0.2l](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |           |       |        |
 | [OpenH264 1.6.0](https://github.com/cisco/openh264/releases/tag/v1.6.0)       |    X    |      X      |  X  |   X  |            |        |        |
@@ -15,7 +15,7 @@ Easily build PJSIP with: OpenSSL, OpenH264 and G.729 (without Intel IPP) for And
 
 | Library \ Builds for | armeabi | armeabi-v7a | x86 | mips | arm64-v8a  | x86_64 | mips64 |
 |----------------------|---------|-------------|-----|------|------------|--------|--------|
-| [PJSIP 2.7](https://trac.pjsip.org/repos/browser/pjproject/tags/2.7)          |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
+| [PJSIP 2.7.1](https://trac.pjsip.org/repos/browser/pjproject/tags/2.7.1)          |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
 | [G.729](https://github.com/mgkdev/pjsip-android-builder/tree/master/g729_patch)                |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
 | [OpenSSL 1.0.2l](https://www.openssl.org/source/)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |
 | [OpenH264 1.6.0](https://github.com/cisco/openh264/releases/tag/v1.6.0)       |    X    |      X      |  X  |   X  |      X     |    X   |    X   |

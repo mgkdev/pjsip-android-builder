@@ -74,7 +74,7 @@ then
     echo "Extracting PJSIP ..."
     tar xjf pjsip.tar.bz2 && rm -rf pjsip.tar.bz2
 
-    if [ "${PJSIP_DIR_NAME}" == "pjproject-2.7" ]
+    if [ "${PJSIP_DIR_NAME}" == "pjproject-2.7.1" ]
     then
         echo "Disable some features of libyuv (provisional treatment for x86 build)..."
         cd "${PJSIP_DIR_NAME}"
@@ -85,7 +85,7 @@ then
 
         echo "Apply patch to support G.729 codec without Intel IPP codec library ..."
         cd g729_patch
-        PJPROJECT_BASE_FOLDER="../pjproject-2.7" ./install.sh
+        PJPROJECT_BASE_FOLDER="../pjproject-2.7.1" ./install.sh
         cd ..
     fi
 fi
